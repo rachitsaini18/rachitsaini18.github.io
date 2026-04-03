@@ -7,28 +7,28 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Code+Pro:wght@400;500&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
-    :root {
-      --ink: #1a1a2e;
-      --ink-light: #3d3d5c;
-      --muted: #7a7a9a;
-      --rule: #c8c8dc;
-      --cream: #faf9f6;
-      --accent: #8b1a1a;
-      --accent-light: #b8462e;
-      --link: #2a4a8a;
+   :root {
+      --ink: #111111;
+      --ink-light: #444444;
+      --muted: #888888;
+      --rule: #dddddd;
+      --cream: #ffffff;
+      --accent: #111111;
+      --accent-light: #444444;
+      --link: #111111;
       --card-bg: #ffffff;
       --serif: 'EB Garamond', Georgia, serif;
       --sans: 'Lato', sans-serif;
       --mono: 'Source Code Pro', monospace;
     }
-
+ 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+ 
     html { scroll-behavior: smooth; }
-
+ 
     body {
       font-family: var(--serif);
-      background: var(--cream);
+      background: #ffffff;
       color: var(--ink);
       font-size: 18px;
       line-height: 1.75;
@@ -529,7 +529,7 @@
   <span class="brand">Rachit Saini</span>
   <ul>
     <li><a href="#about">About</a></li>
-    <li><a href="https://www.dropbox.com/scl/fi/paxlbhrph4gvlzg8pi9dm/Resume_Rachit_Saini.pdf?rlkey=8yxyha0ixk1ufg1a0nmc5lwlx&st=2hfoph7v&dl=0">CV</a></li>
+    <li><a href="https://www.dropbox.com/scl/fi/lx4o7qjlbga1q6z3p26xb/Resume_Rachit_Saini.pdf?rlkey=zhfaaoqmc2ev17inlsf5uzwvy&st=nwgjjznp&dl=0">Resume</a></li>
     <li><a href="#projects">Projects</a></li>
     <li><a href="#blog">Blog</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -590,322 +590,6 @@
       </div>
 
     </div>
-  </section>
-
-  <!-- PUBLICATIONS -->
-  <section id="publications">
-    <div class="section-title">Selected Publications</div>
-    <ul class="pub-list">
-
-      <li class="pub-item">
-        <div class="pub-venue">NeurIPS 2025</div>
-        <div class="pub-title">Elastic Pipeline Parallelism for Heterogeneous GPU Clusters</div>
-        <div class="pub-authors"><strong>Rachit Saini</strong>, Alan Smith, Clara Nguyen</div>
-        <div class="pub-links">
-          <a href="#">PDF</a><a href="#">arXiv</a><a href="#">Code</a><a href="#">Slides</a>
-        </div>
-      </li>
-
-      <li class="pub-item">
-        <div class="pub-venue">ICML 2024 · Best Paper Honorable Mention</div>
-        <div class="pub-title">Fair Decoding: Group-Level Guarantees for Autoregressive Models</div>
-        <div class="pub-authors"><strong>Rachit Saini</strong>, Michael Torres, Priya Kapoor, Bob Chen</div>
-        <div class="pub-links">
-          <a href="#">PDF</a><a href="#">arXiv</a><a href="#">Poster</a>
-        </div>
-      </li>
-
-      <li class="pub-item">
-        <div class="pub-venue">OSDI 2023</div>
-        <div class="pub-title">Hydra: Speculative Execution for Low-Latency LLM Serving</div>
-        <div class="pub-authors">Alan Smith, <strong>Rachit Saini</strong>, Wei Zhang</div>
-        <div class="pub-links">
-          <a href="#">PDF</a><a href="#">Talk</a><a href="#">Code</a>
-        </div>
-      </li>
-
-      <li class="pub-item">
-        <div class="pub-venue">SOSP 2022</div>
-        <div class="pub-title">Verified Gradient Accumulation in Byzantine-Fault-Tolerant Training</div>
-        <div class="pub-authors"><strong>Rachit Saini</strong>, Lena Fischer</div>
-        <div class="pub-links">
-          <a href="#">PDF</a><a href="#">arXiv</a><a href="#">Slides</a>
-        </div>
-      </li>
-
-    </ul>
-  </section>
-
-  <!-- CV -->
-  <section id="cv">
-    <div class="section-title">Curriculum Vitae</div>
-
-    <div class="cv-block">
-      <h3>Education</h3>
-      <div class="cv-entry">
-        <span class="cv-year">2021</span>
-        <div class="cv-entry-body">
-          <strong>Ph.D. in Computer Science</strong>
-          <span>Massachusetts Institute of Technology — Advisor: Prof. Alan Turing II</span>
-        </div>
-      </div>
-      <div class="cv-entry">
-        <span class="cv-year">2016</span>
-        <div class="cv-entry-body">
-          <strong>B.S. in Computer Engineering, <em>summa cum laude</em></strong>
-          <span>Stanford University</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="cv-block">
-      <h3>Academic Positions</h3>
-      <div class="cv-entry">
-        <span class="cv-year">2023–</span>
-        <div class="cv-entry-body">
-          <strong>Assistant Professor</strong>
-          <span>Department of CSE, University of Somewhere</span>
-        </div>
-      </div>
-      <div class="cv-entry">
-        <span class="cv-year">2021–23</span>
-        <div class="cv-entry-body">
-          <strong>Postdoctoral Researcher</strong>
-          <span>Carnegie Mellon University — Systems &amp; AI Lab</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="cv-block">
-      <h3>Honors &amp; Awards</h3>
-      <div class="cv-entry">
-        <span class="cv-year">2024</span>
-        <div class="cv-entry-body">
-          <strong>ICML Best Paper Honorable Mention</strong>
-        </div>
-      </div>
-      <div class="cv-entry">
-        <span class="cv-year">2022</span>
-        <div class="cv-entry-body">
-          <strong>NSF CAREER Award</strong>
-        </div>
-      </div>
-      <div class="cv-entry">
-        <span class="cv-year">2021</span>
-        <div class="cv-entry-body">
-          <strong>MIT EECS Outstanding Thesis Award</strong>
-        </div>
-      </div>
-    </div>
-
-    <a class="cv-btn" href="#">Download Full CV (PDF)</a>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects">
-    <div class="section-title">Projects</div>
-    <div class="projects-grid">
-
-      <div class="project-card">
-        <div class="project-header">
-          <h3>Hydra Inference Engine</h3>
-          <span class="project-status status-active">Active</span>
-        </div>
-        <p class="project-desc">An open-source serving system for large language models that combines speculative decoding with hardware-aware scheduling to achieve sub-100ms p99 latency on commodity GPUs.</p>
-        <div class="project-tags">
-          <span class="tag">MLSys</span><span class="tag">C++</span><span class="tag">CUDA</span><span class="tag">Python</span>
-        </div>
-        <div class="project-funding">Funded by NSF CAREER #2200001</div>
-        <div class="project-links">
-          <a href="#">GitHub</a><a href="#">Paper</a><a href="#">Demo</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-header">
-          <h3>FairDecode Toolkit</h3>
-          <span class="project-status status-active">Active</span>
-        </div>
-        <p class="project-desc">A Python library providing plug-in fairness constraints for autoregressive text generation, with certified group-level guarantees and minimal throughput overhead.</p>
-        <div class="project-tags">
-          <span class="tag">Fairness</span><span class="tag">NLP</span><span class="tag">Python</span>
-        </div>
-        <div class="project-funding">Funded by DARPA LwLL</div>
-        <div class="project-links">
-          <a href="#">GitHub</a><a href="#">Docs</a><a href="#">Paper</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-header">
-          <h3>VerifyGrad</h3>
-          <span class="project-status status-complete">Complete</span>
-        </div>
-        <p class="project-desc">A formal verification framework for gradient accumulation routines in Byzantine-fault-tolerant distributed training. Proofs are machine-checked via Z3 and Coq.</p>
-        <div class="project-tags">
-          <span class="tag">Verification</span><span class="tag">Distributed</span><span class="tag">Coq</span>
-        </div>
-        <div class="project-funding">MIT CSAIL Seed Grant</div>
-        <div class="project-links">
-          <a href="#">GitHub</a><a href="#">Paper</a><a href="#">Slides</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-header">
-          <h3>ElasticPipe</h3>
-          <span class="project-status status-active">Active</span>
-        </div>
-        <p class="project-desc">A pipeline parallelism scheduler that dynamically re-partitions transformer layers across heterogeneous GPU clusters in response to node failures and stragglers.</p>
-        <div class="project-tags">
-          <span class="tag">Distributed</span><span class="tag">Systems</span><span class="tag">PyTorch</span>
-        </div>
-        <div class="project-funding">Funded by NSF CAREER #2200001</div>
-        <div class="project-links">
-          <a href="#">GitHub</a><a href="#">Paper</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-header">
-          <h3>EcoInfer</h3>
-          <span class="project-status status-collab">Collaboration</span>
-        </div>
-        <p class="project-desc">A joint project with the Green Computing Lab to profile and reduce the carbon footprint of LLM inference workloads through adaptive batching and power-aware scheduling.</p>
-        <div class="project-tags">
-          <span class="tag">Sustainability</span><span class="tag">Systems</span><span class="tag">Profiling</span>
-        </div>
-        <div class="project-funding">With Prof. L. Fischer (ETH Zürich)</div>
-        <div class="project-links">
-          <a href="#">Project Page</a><a href="#">Preprint</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="project-header">
-          <h3>EdgeLLM Benchmark</h3>
-          <span class="project-status status-complete">Complete</span>
-        </div>
-        <p class="project-desc">A reproducible benchmarking suite for evaluating quantised LLMs on edge hardware (Raspberry Pi 5, Jetson Orin, Apple M-series), covering latency, memory, and accuracy trade-offs.</p>
-        <div class="project-tags">
-          <span class="tag">Benchmarking</span><span class="tag">Edge</span><span class="tag">Quantisation</span>
-        </div>
-        <div class="project-funding">University of Somewhere Seed Fund</div>
-        <div class="project-links">
-          <a href="#">GitHub</a><a href="#">Leaderboard</a><a href="#">Paper</a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- BLOG -->
-  <section id="blog">
-    <div class="section-title">Blog</div>
-    <div class="blog-grid">
-
-      <div class="blog-card">
-        <div class="blog-card-meta">
-          <span class="blog-date">March 10, 2026</span>
-          <span class="blog-category">Systems</span>
-        </div>
-        <h3>Why Speculative Decoding Works — and When It Doesn't</h3>
-        <p>A deep dive into the mechanics of speculative decoding for LLMs: the theory behind draft models, acceptance rates, and the hidden overheads that textbooks skip.</p>
-        <div class="blog-card-footer">
-          <span class="read-time">8 min read</span>
-          <a class="read-more" href="#">Read →</a>
-        </div>
-      </div>
-
-      <div class="blog-card">
-        <div class="blog-card-meta">
-          <span class="blog-date">Feb 2, 2026</span>
-          <span class="blog-category">Fairness</span>
-        </div>
-        <h3>Defining "Fair" in Machine Learning: A Practical Taxonomy</h3>
-        <p>Individual fairness, group fairness, counterfactual fairness — they're not the same thing, and using the wrong one quietly breaks your guarantees. Here's how to choose.</p>
-        <div class="blog-card-footer">
-          <span class="read-time">11 min read</span>
-          <a class="read-more" href="#">Read →</a>
-        </div>
-      </div>
-
-      <div class="blog-card">
-        <div class="blog-card-meta">
-          <span class="blog-date">Dec 18, 2025</span>
-          <span class="blog-category">Grad School</span>
-        </div>
-        <h3>How I Structure My Research Group's Weekly Meetings</h3>
-        <p>After three years of running a lab, I've landed on a format that keeps discussions focused, surfaces blockers early, and leaves students feeling energised rather than drained.</p>
-        <div class="blog-card-footer">
-          <span class="read-time">5 min read</span>
-          <a class="read-more" href="#">Read →</a>
-        </div>
-      </div>
-
-      <div class="blog-card">
-        <div class="blog-card-meta">
-          <span class="blog-date">Oct 29, 2025</span>
-          <span class="blog-category">Opinion</span>
-        </div>
-        <h3>The Reproducibility Crisis in ML Systems Research</h3>
-        <p>Benchmark numbers that can't be reproduced outside the originating lab are a quiet tax on the whole field. What we can do — individually and collectively — to fix this.</p>
-        <div class="blog-card-footer">
-          <span class="read-time">9 min read</span>
-          <a class="read-more" href="#">Read →</a>
-        </div>
-      </div>
-
-      <div class="blog-card">
-        <div class="blog-card-meta">
-          <span class="blog-date">Sep 5, 2025</span>
-          <span class="blog-category">Tutorial</span>
-        </div>
-        <h3>Getting Started with Formal Verification for Neural Networks</h3>
-        <p>A hands-on introduction to SMT-based verification for learned models, aimed at systems researchers with no prior background in program analysis.</p>
-        <div class="blog-card-footer">
-          <span class="read-time">15 min read</span>
-          <a class="read-more" href="#">Read →</a>
-        </div>
-      </div>
-
-      <div class="blog-card">
-        <div class="blog-card-meta">
-          <span class="blog-date">Jul 14, 2025</span>
-          <span class="blog-category">Career</span>
-        </div>
-        <h3>Writing a Research Statement That Actually Gets Read</h3>
-        <p>Faculty search committees skim. Here's the structure, framing, and common pitfalls I've seen as both an applicant and someone who has served on hiring committees.</p>
-        <div class="blog-card-footer">
-          <span class="read-time">7 min read</span>
-          <a class="read-more" href="#">Read →</a>
-        </div>
-      </div>
-
-    </div>
-    <div class="blog-all"><a href="#">View All Posts</a></div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact">
-    <div class="section-title">Contact</div>
-    <div class="contact-grid">
-      <div class="contact-item">
-        <h3>Email</h3>
-        <p><a href="/cdn-cgi/l/email-protection#3b515f545e7b4e55524d5e4948524f42155e5f4e"><span class="__cf_email__" data-cfemail="d1bbb5beb491a4bfb8a7b4a3a2b8a5a8ffb4b5a4">[email&#160;protected]</span></a></p>
-      </div>
-      <div class="contact-item">
-        <h3>Office</h3>
-        <p>Room 421, Engineering Hall<br>University of Somewhere<br>City, ST 00000</p>
-      </div>
-      <div class="contact-item">
-        <h3>Office Hours</h3>
-        <p>Tuesdays 2–4 PM, or by appointment</p>
-      </div>
-      <div class="contact-item">
-        <h3>Prospective Students</h3>
-        <p>I am actively recruiting Ph.D. students for Fall 2026. Please email me with your CV and a brief statement of research interests.</p>
-          </div>
   </section>
 
 </main>
